@@ -13,8 +13,8 @@ type PieChartData = {
 }
 
 type BarChartData = {
-    x: String;
-    y: Number;
+    x: string;
+    y: number;
 
 }
 
