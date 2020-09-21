@@ -1,6 +1,6 @@
 import {Platform} from '../../Records/types'
 
-export type Game - {
+export type Game = {
     id : Number;
     title : string;
     platform : Platform; 
