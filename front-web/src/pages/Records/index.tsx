@@ -5,7 +5,7 @@ import { RecordsResponse } from './types';
 import {formatDate} from './helpers';
 import Pagination from './Pagination';
 import Filters from "../../components/Filters";
-const BASE_URL ='http://localhost:8090'
+const BASE_URL ="https://sds1-varus.herokuapp.com"
 
 const Records = () => {
     const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
